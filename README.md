@@ -9,9 +9,16 @@ You have some starting files to work with.  Spend a couple minutes looking throu
 You have an app, a controller, an index file, and a stylesheet.
 
 ## Step 2 - Our service
+ 
 - Create an angular service file and an angular service inside it.  You can call in `mainService`.
+<!--//OK -->
+
 - Make sure the app names match or it won't work.
+<!--//OK -->
+
 - Test it by making sure there are no errors in your console.
+<!--//OK -->
+
 - If Angular is broken you probably didn't add it to the index.html file.
 - We will also want to load some data into our service. Copy the following data into the service:
 ``` json
@@ -65,7 +72,11 @@ angular.module('userProfiles').service('mainService', function() {
 
 ## Step 3 - Our Service
 Our Service will do most of the app's heavy lifting. We want to keep our controllers as slim as possible. To do that we will need to create a function that delivers our data to our controller.
+
+
 - Write a function in your service called "getUsers" that will `return` all of our user data to the controller.
+
+
   - Remember: functions made in a service can be tied to the service object via the "this" keyword. 
 
 ## Step 4 - Our Controller
